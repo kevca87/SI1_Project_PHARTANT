@@ -3,27 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using PHARTANT.Dal;
-using PHARTANT.Models;
+using PHARTANT.Model;
 using PHARTANT.Global;
 
-namespace PHARTANT.Controllers
+namespace PHARTANT.Controller
 {
-    public class ProductController
+    public class StockController
     {
         private DataAccess.DataAccess _dataAccess;
-        private ProductMapper _productMapper;
-        private List<Product> _products;
+        private StockMapper _stockMapper;
+        private List<Stock> _stocks;
 
-        private ProductMapper Mapper
+        private StockMapper Mapper
         {
-            get { return _productMapper; }
+            get { return _stockMapper; }
         }
-        public ProductController()
+        public StockController()
         {
             string constr = GlobalData.connectionString;
 
+
             _dataAccess = new DataAccess.DataAccess(constr);
-            _productMapper = new ProductMapper(_dataAccess);
+            _stockMapper = new StockMapper(_dataAccess);
 
             //GetAirports();
         }
