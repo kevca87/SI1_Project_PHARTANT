@@ -49,10 +49,15 @@
   <ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="MainForm.cs">
 =======
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\StockController.cs" />
+=======
+    <Compile Include="Controller\ProductController.cs" />
+    <Compile Include="Controller\StockController.cs" />
+>>>>>>> 92ba8b7e763285eb12c4763e533c23c2cf1091cd
 =======
     <Compile Include="Controller\ProductController.cs" />
     <Compile Include="Controller\StockController.cs" />
