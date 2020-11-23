@@ -1,0 +1,10 @@
+F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.csprojAssemblyReference.cache
+F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.Properties.Resources.resources
+F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.csproj.GenerateResource.cache
+F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.csproj.CoreCompileInputs.cache
+F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\bin\Debug\PHARTANT.exe.config
+F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\bin\Debug\PHARTANT.exe
+F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\bin\Debug\PHARTANT.pdb
+F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.exe
+F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.pdb
+F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.Form1.resources
