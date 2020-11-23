@@ -46,8 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\CustomerController.cs" />
     <Compile Include="Controller\ProductController.cs" />
+    <Compile Include="Controller\SaleController.cs" />
     <Compile Include="Controller\StockController.cs" />
+    <Compile Include="Dal\CustomerMapper.cs" />
+    <Compile Include="Dal\SaleMapper.cs" />
     <Compile Include="Dal\StockMapper.cs" />
     <Compile Include="DataAccess\DataAccess.cs" />
     <Compile Include="Form1.cs">
@@ -58,7 +62,9 @@
     </Compile>
     <Compile Include="Dal\ProductMapper.cs" />
     <Compile Include="Global\GlobalData.cs" />
+    <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\Sale.cs" />
     <Compile Include="Model\Stock.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

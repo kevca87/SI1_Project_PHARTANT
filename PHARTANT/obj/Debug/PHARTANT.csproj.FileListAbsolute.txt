@@ -8,3 +8,13 @@ F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_P
 F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.exe
 F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.pdb
 F:\Kevin\Universidad\4to Semestre\Sistemas de información I\ProyectoFinal\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.Form1.resources
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\bin\Debug\PHARTANT.exe.config
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\bin\Debug\PHARTANT.exe
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\bin\Debug\PHARTANT.pdb
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.csprojAssemblyReference.cache
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.Form1.resources
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.Properties.Resources.resources
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.csproj.GenerateResource.cache
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.csproj.CoreCompileInputs.cache
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.exe
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.pdb
