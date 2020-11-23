@@ -2,17 +2,30 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+<<<<<<< HEAD
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.OleDb;
 
+=======
+using System.Data;
+using System.Data.OleDb;
+
+
+>>>>>>> 3135a15743959305d60231daa010675c3a4c9951
 namespace PHARTANT.DataAccess
 {
     public class DataAccess
     {
+<<<<<<< HEAD
         private OleDbConnection _connection;
         private string _connectionString;
 
+=======
+
+        private OleDbConnection _connection;
+        private string _connectionString;
+>>>>>>> 3135a15743959305d60231daa010675c3a4c9951
         public DataAccess(string connectionString)
         {
             _connectionString = connectionString;
@@ -23,6 +36,10 @@ namespace PHARTANT.DataAccess
             get { return _connectionString; }
             set { _connectionString = value; }
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3135a15743959305d60231daa010675c3a4c9951
         public Boolean Open()
         {
             try
@@ -57,6 +74,10 @@ namespace PHARTANT.DataAccess
             }
 
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3135a15743959305d60231daa010675c3a4c9951
         public DataTable GetDataTable(string p_str_sql)
         {
             string strConn = ConnectionString;
