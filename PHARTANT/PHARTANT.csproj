@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,24 +47,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Compile Include="Controller\CustomerController.cs" />
+    <Compile Include="Controller\SaleController.cs" />
+    <Compile Include="Dal\CustomerMapper.cs" />
+    <Compile Include="Dal\SaleMapper.cs" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <Compile Include="MainForm.cs">
+=======
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\StockController.cs" />
+=======
     <Compile Include="Controller\ProductController.cs" />
     <Compile Include="Controller\StockController.cs" />
+>>>>>>> 92ba8b7e763285eb12c4763e533c23c2cf1091cd
+=======
+    <Compile Include="Controller\ProductController.cs" />
+    <Compile Include="Controller\StockController.cs" />
+>>>>>>> 92ba8b7e763285eb12c4763e533c23c2cf1091cd
     <Compile Include="Dal\StockMapper.cs" />
+>>>>>>> 3135a15743959305d60231daa010675c3a4c9951
     <Compile Include="DataAccess\DataAccess.cs" />
     <Compile Include="Form1.cs">
+>>>>>>> f2df8d176d24fffd806b8f950a5c4dfeae411bf8
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+<<<<<<< HEAD
+    <Compile Include="Global\GlobalData.cs" />
+    <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\Sale.cs" />
+=======
+    <Compile Include="SaleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleForm.Designer.cs">
+      <DependentUpon>SaleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Dal\ProductMapper.cs" />
     <Compile Include="Global\GlobalData.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\Stock.cs" />
+>>>>>>> 3135a15743959305d60231daa010675c3a4c9951
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="SalesHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesHistoryForm.Designer.cs">
+      <DependentUpon>SalesHistoryForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleForm.resx">
+      <DependentUpon>SaleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,6 +117,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SalesHistoryForm.resx">
+      <DependentUpon>SalesHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,5 +133,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
