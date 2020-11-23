@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PHARTANT
 {
-    public partial class Form1 : Form
+    public partial class SalesHistoryForm : Form
     {
-        public Form1()
+        public SalesHistoryForm()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
