@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using PHARTANT.Dal;
 
-namespace PHARTANT.Models
+namespace PHARTANT.Model
 {
     class Stock
     {

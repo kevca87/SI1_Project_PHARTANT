@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
-using PHARTANT.Models;
+using PHARTANT.Model;
 using System.Data.OleDb;
 
 
