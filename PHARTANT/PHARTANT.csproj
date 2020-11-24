@@ -54,10 +54,10 @@
     <Compile Include="Dal\SaleMapper.cs" />
     <Compile Include="Dal\StockMapper.cs" />
     <Compile Include="DataAccess\DataAccess.cs" />
-    <Compile Include="MainForm.cs">
+    <Compile Include="UI\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="UI\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Dal\ProductMapper.cs" />
@@ -68,19 +68,17 @@
     <Compile Include="Model\Stock.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReservationForm.cs">
+    <Compile Include="UI\ReservationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReservationForm.Designer.cs">
+    <Compile Include="UI\ReservationForm.Designer.cs">
       <DependentUpon>ReservationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SalesHistory.cs">
+    <Compile Include="UI\SaleUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SalesHistory.Designer.cs">
-      <DependentUpon>SalesHistory.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="MainForm.resx">
+    <Compile Include="UI\SaleUI.Designer.cs" />
+    <EmbeddedResource Include="UI\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -92,12 +90,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ReservationForm.resx">
+    <EmbeddedResource Include="UI\ReservationForm.resx">
       <DependentUpon>ReservationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SalesHistory.resx">
-      <DependentUpon>SalesHistory.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SaleUI.resx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -110,6 +106,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="datosFarmaPlus1.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

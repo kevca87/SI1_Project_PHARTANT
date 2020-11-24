@@ -8,25 +8,50 @@ using PHARTANT.Dal;
 using PHARTANT.Model;
 using PHARTANT.Global;
 
-namespace PHARTANT.Mapper
+namespace PHARTANT.Controller
 {
     public class SaleController
     {
         private DataAccess.DataAccess _dataAccess;
         private SaleMapper _saleMapper;
         private List<Sale> _sales;
+        private SaleMapper Mapper
+        {
+            get { return _saleMapper; }
+        }
+
         public SaleController()
         {
             string constr = GlobalData.connectionString;
 
             _dataAccess = new DataAccess.DataAccess(constr);
             _saleMapper = new SaleMapper(_dataAccess);
-            //GetSales();
+
+            GetSales();
+            //GetReservations();
         }
-        /*public void GetSales()
+
+         public List<Sale> Sales
+         {
+             get { return _sales; }
+         }
+       
+        public void GetSales()
         {
-            _sales = _saleMapper.GetAllSalesList();
-        }*/
+            _sales = Mapper.GetAllSalesList();
+        }
+
+        
+        public List<Sale> Reservation
+        {
+            get { return _sales; }
+        }
+        public void GetReservations()
+        {
+            _sales = Mapper.GetAllReservationList();
+        }
     }
+
+   
 
 }

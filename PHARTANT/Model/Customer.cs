@@ -11,7 +11,7 @@ namespace PHARTANT.Model
 {
     public class Customer
     {
-        private CustomerMapper _customerMapper;
+        private CustomerMapper _costumerMapper;
         private DataAccess.DataAccess _dataAccess;
 
         public int nit { get; set; }
@@ -26,22 +26,5 @@ namespace PHARTANT.Model
             return name;
         }
          */
-        internal Customer()
-        {
-            nit = 0;
-            name = "";
-        }
-
-        public Customer(CustomerMapper mapper, DataAccess.DataAccess dac)
-        {
-            _customerMapper = mapper;
-            _dataAccess = dac;
-        }
-
-        public Customer(CustomerMapper mapper, DataAccess.DataAccess dac, int nit,string name) : this(mapper, dac)
-        {
-            this.nit = nit;
-            this.name = name;     
-        }
     }
 }
