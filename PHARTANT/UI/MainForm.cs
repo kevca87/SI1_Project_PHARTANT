@@ -34,5 +34,11 @@ namespace PHARTANT
             ReservationForm r = new ReservationForm();
             r.Show();
         }
+
+        private void buttonShowUsers_Click(object sender, EventArgs e)
+        {
+            CustomerUI c = new CustomerUI();
+            c.Show();
+        }
     }
 }

@@ -36,7 +36,7 @@
             this.btnStats = new System.Windows.Forms.Button();
             this.btnNewReservation = new System.Windows.Forms.Button();
             this.btnCheckInventory = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.buttonShowUsers = new System.Windows.Forms.Button();
             this.btnPendingReservarion = new System.Windows.Forms.Button();
             this.btnUpdateInventory = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -127,15 +127,16 @@
             this.btnCheckInventory.Text = "CONSULTAR INVENTARIO";
             this.btnCheckInventory.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // buttonShowUsers
             // 
-            this.button8.Location = new System.Drawing.Point(389, 399);
-            this.button8.Margin = new System.Windows.Forms.Padding(4);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(161, 123);
-            this.button8.TabIndex = 10;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.buttonShowUsers.Location = new System.Drawing.Point(389, 399);
+            this.buttonShowUsers.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonShowUsers.Name = "buttonShowUsers";
+            this.buttonShowUsers.Size = new System.Drawing.Size(161, 123);
+            this.buttonShowUsers.TabIndex = 10;
+            this.buttonShowUsers.Text = "VER CLIENTES";
+            this.buttonShowUsers.UseVisualStyleBackColor = true;
+            this.buttonShowUsers.Click += new System.EventHandler(this.buttonShowUsers_Click);
             // 
             // btnPendingReservarion
             // 
@@ -199,7 +200,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnUpdateInventory);
             this.Controls.Add(this.btnPendingReservarion);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.buttonShowUsers);
             this.Controls.Add(this.btnCheckInventory);
             this.Controls.Add(this.btnNewReservation);
             this.Controls.Add(this.btnStats);
@@ -227,7 +228,7 @@
         private System.Windows.Forms.Button btnStats;
         private System.Windows.Forms.Button btnNewReservation;
         private System.Windows.Forms.Button btnCheckInventory;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button buttonShowUsers;
         private System.Windows.Forms.Button btnPendingReservarion;
         private System.Windows.Forms.Button btnUpdateInventory;
         private System.Windows.Forms.Label label1;

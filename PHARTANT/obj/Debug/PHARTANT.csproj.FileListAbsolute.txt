@@ -21,3 +21,6 @@ C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyec
 C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.ReservationForm.resources
 C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\bin\Debug\datosFarmaPlus1.mdb
 C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.UI.SaleUI.resources
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\bin\Debug\FarmaPlusDatabase.mdf
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\bin\Debug\FarmaPlusDatabase_log.ldf
+C:\Users\kevca\Documents\UNIVERSIDAD\4to Semestre\Sistemas_de_Informacion\Proyecto_Final\SI1_Project_PHARTANT\PHARTANT\obj\Debug\PHARTANT.UI.CustomerUI.resources
