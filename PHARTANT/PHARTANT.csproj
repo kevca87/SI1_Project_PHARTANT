@@ -61,14 +61,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\ConceptController.cs" />
     <Compile Include="Controller\CustomerController.cs" />
     <Compile Include="Controller\ProductController.cs" />
     <Compile Include="Controller\SaleController.cs" />
     <Compile Include="Controller\StockController.cs" />
+    <Compile Include="Dal\ConceptMapper.cs" />
     <Compile Include="Dal\CustomerMapper.cs" />
     <Compile Include="Dal\SaleMapper.cs" />
     <Compile Include="Dal\StockMapper.cs" />
     <Compile Include="DataAccess\DataAccess.cs" />
+    <Compile Include="Model\Concept.cs" />
     <Compile Include="UI\CustomerUI.cs">
       <SubType>Form</SubType>
     </Compile>
