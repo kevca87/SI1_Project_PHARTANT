@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data;
-using System.Data.SqlClient;
-
+using System.Data.OleDb;
 
 namespace PHARTANT.DataAccess
 {
     public class DataAccess
     {
 
-        private SqlConnection _connection;
+        private OleDbConnection _connection;
         private string _connectionString;
         public DataAccess(string connectionString)
         {
